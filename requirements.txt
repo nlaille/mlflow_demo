@@ -1,0 +1,8 @@
+jupyter
+jupyterlab
+mlflow
+papermill
+matplotlib
+numpy
+pandas
+sklearn

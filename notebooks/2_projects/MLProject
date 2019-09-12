@@ -1,0 +1,13 @@
+name: 2_projects
+
+conda_env: env.yaml
+# Can have a docker_env instead of a conda_env, e.g.
+# docker_env:
+#    image:  mlflow-docker-example
+
+entry_points:
+  main:
+    parameters:
+      seed: {type: int, default: 0}
+      number: {type: int, default: 10}
+    command: "papermill input.ipynb output.ipynb -p seed {seed} -p number {number}"
