@@ -1,3 +1,5 @@
+jupyter
+jupyterlab
 mlflow
 papermill
 matplotlib
